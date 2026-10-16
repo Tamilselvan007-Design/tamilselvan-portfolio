@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tamilselvan Velavan | Senior Graphic Designer, Motion & Video</title>
+<meta name="description" content="Explore the portfolio of Tamilselvan Velavan, a creative professional specializing in graphic design, motion graphics, video editing, visual storytelling, and AI-assisted creative production.">
+<meta property="og:title" content="Tamilselvan Velavan | Senior Graphic Designer, Motion & Video">
+<meta property="og:description" content="Graphic design, motion graphics, video editing and AI-assisted creative production.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='16' fill='%23C6FF45'/><text x='32' y='46' font-size='40' font-family='serif' font-style='italic' text-anchor='middle' fill='%23151515'>T</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F5F5F0;--ink:#151515;--mute:#777;--line:#DEDED8;--lime:#C6FF45;--lime2:#B4F23A;--dark:#101010;
+--sans:'Manrope',system-ui,sans-serif;--serif:'Instrument Serif',Georgia,serif;--r:28px}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{font-family:var(--sans);background:var(--bg);color:var(--ink);line-height:1.55;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img,video{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:3px solid var(--ink);outline-offset:3px;border-radius:8px}
+.wrap{width:min(1180px,100% - 40px);margin-inline:auto}
+.serif{font-family:var(--serif);font-style:italic;font-weight:400}
+.label{font-family:var(--serif);font-style:italic;font-size:1.25rem;color:var(--mute);text-align:center;margin-bottom:10px}
+h2{font-size:clamp(2rem,5vw,3.4rem);line-height:1.05;letter-spacing:-.03em;font-weight:600;text-align:center}
+.pill{display:inline-flex;align-items:center;gap:10px;background:var(--ink);color:#fff;padding:14px 24px;border-radius:99px;font-weight:600;font-size:.92rem;border:0;cursor:pointer;transition:transform .25s,background .25s,color .25s}
+.pill:hover{transform:translateY(-2px);background:var(--lime);color:var(--ink)}
+.pill.ghost{background:transparent;color:var(--ink);border:1px solid var(--ink)}
+.pill.ghost:hover{background:var(--ink);color:#fff}
+.chip{display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--line);border-radius:99px;padding:9px 16px;font-size:.85rem;font-weight:600}
+.chip i{width:10px;height:10px;border-radius:50%;background:var(--lime2)}
+section{padding:clamp(70px,10vw,130px) 0}
+
+nav{position:fixed;inset:0 0 auto 0;z-index:50;padding:14px 0;transition:background .3s,backdrop-filter .3s}
+nav.scrolled{background:rgba(245,245,240,.85);backdrop-filter:blur(10px)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{display:flex;flex-direction:column;line-height:1.1}
+.brand b{font-family:var(--serif);font-style:italic;font-weight:400;font-size:1.6rem}
+.brand small{font-size:.68rem;color:var(--mute);font-weight:500}
+.links{display:flex;gap:28px;align-items:center;font-weight:600;font-size:.9rem}
+.links a:not(.pill){position:relative}
+.links a:not(.pill)::after{content:"";position:absolute;left:0;bottom:-4px;height:2px;width:0;background:var(--ink);transition:width .25s}
+.links a:not(.pill):hover::after{width:100%}
+.burger{display:none;width:44px;height:44px;border-radius:50%;border:1px solid var(--line);background:#fff;cursor:pointer;font-size:1.2rem}
+@media(max-width:820px){.burger{display:block;position:relative;z-index:2}.links{position:fixed;inset:0;background:var(--bg);flex-direction:column;justify-content:center;font-size:2rem;gap:22px;transform:translateY(-100%);transition:transform .4s;z-index:1}.links.open{transform:none}.links .pill{font-size:1rem}}
+
+.hero{background:linear-gradient(180deg,var(--lime) 0%,#DDFB94 38%,var(--bg) 85%);padding:120px 0 40px;text-align:center;position:relative;overflow:hidden}
+.badge{display:inline-block;font-size:.8rem;font-weight:600;border:1px solid rgba(0,0,0,.25);border-radius:99px;padding:6px 16px;margin-bottom:18px}
+.hero h1{font-size:clamp(2.6rem,8vw,5.6rem);line-height:1;letter-spacing:-.04em;font-weight:600;position:relative;z-index:1}
+.hero h1 .serif{display:block;font-size:1.12em;letter-spacing:-.02em;margin-top:.04em}
+.stage{position:relative;min-height:clamp(380px,48vw,560px);margin-top:-1.2em}
+.stage img{position:absolute;left:50%;bottom:0;transform:translateX(-50%);height:100%;width:auto;z-index:2;filter:drop-shadow(0 20px 40px rgba(60,100,0,.25))}
+.stage .side{position:absolute;z-index:3;bottom:40px;text-align:left}
+.side.l{left:0;display:flex;flex-direction:column;gap:14px;align-items:flex-start;max-width:230px}
+.side.r{right:0;max-width:260px;display:flex;flex-direction:column;gap:18px;font-size:.95rem}
+.open-pill{background:#fff;border-radius:99px;padding:8px 16px;font-size:.82rem;font-weight:600;display:inline-flex;gap:8px;align-items:center;box-shadow:0 4px 14px rgba(0,0,0,.08)}
+.open-pill::before{content:"";width:9px;height:9px;border-radius:50%;background:#2fd15a;box-shadow:0 0 0 4px rgba(47,209,90,.25)}
+.meta{font-size:.78rem;color:#333;font-weight:600}
+@media(max-width:820px){.stage{min-height:auto;margin-top:0}.stage img{position:relative;left:auto;transform:none;height:auto;width:min(360px,80%);margin:0 auto}.stage .side{position:static;max-width:none;text-align:center;align-items:center;margin-top:18px}}
+.cue{margin-top:22px;font-size:.78rem;color:#444}
+
+.hero h1,.badge{animation:rise .9s cubic-bezier(.2,.7,.2,1) both}
+.hero h1{animation-delay:.1s}
+.stage img{animation:rise2 .9s .35s cubic-bezier(.2,.7,.2,1) both}
+@keyframes rise{from{opacity:0;transform:translateY(28px)}}
+@keyframes rise2{from{opacity:0;transform:translate(-50%,28px)}}
+@media(max-width:820px){.stage img{animation-name:rise}}
+
+.marq{overflow:hidden;padding:26px 0;mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent)}
+.track{display:flex;gap:56px;width:max-content;animation:slide 38s linear infinite;color:#8a8a84;font-weight:700;font-size:1.1rem;white-space:nowrap}
+.marq:hover .track{animation-play-state:paused}
+@keyframes slide{to{transform:translateX(-50%)}}
+
+.frame{background:linear-gradient(160deg,var(--lime),var(--lime2));border-radius:36px;padding:clamp(14px,3vw,34px);margin-top:36px}
+.player{position:relative;aspect-ratio:16/9;border-radius:22px;overflow:hidden;background:var(--dark);color:#fff}
+.player video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.poster{position:absolute;inset:0;background:radial-gradient(circle at 30% 30%,#2a3a10,#101010 70%);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;text-align:center;padding:20px}
+.poster p{font-size:.9rem;opacity:.8;max-width:340px}
+.play{width:84px;height:84px;border-radius:50%;border:0;background:var(--lime);color:var(--ink);cursor:pointer;display:grid;place-items:center;transition:transform .3s}
+.play:hover{transform:scale(1.08)}
+.play svg{width:30px;margin-left:4px}
+.reel-meta{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-top:14px;font-size:.85rem;font-weight:600}
+
+.statement{max-width:860px;margin:0 auto;text-align:center;font-size:clamp(1.6rem,3.8vw,2.6rem);line-height:1.22;letter-spacing:-.02em;font-weight:500}
+.statement .w{transition:color .5s}
+.statement .w.dim{color:#bcbcb4}
+.chips{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:44px}
+.chips .chip:nth-child(odd){transform:rotate(-3deg)}.chips .chip:nth-child(even){transform:rotate(2.5deg)}
+.chips .chip{box-shadow:0 8px 20px rgba(0,0,0,.06)}
+
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:56px}
+.step{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:26px;min-height:250px;display:flex;flex-direction:column;justify-content:space-between;position:relative}
+.step:nth-child(odd){transform:rotate(-1.6deg)}.step:nth-child(even){transform:rotate(1.6deg) translateY(20px)}
+.step b.n{font-size:3rem;font-weight:500;letter-spacing:-.04em;line-height:1}
+.step h3{font-size:1.4rem;margin-bottom:6px;letter-spacing:-.02em}
+.step p{color:var(--mute);font-size:.92rem}
+.step::after{content:"";position:absolute;top:34px;right:-30px;width:42px;height:2px;background:var(--lime2);transform-origin:left;transform:scaleX(0);transition:transform .8s .3s}
+.step:last-child::after{display:none}
+.steps.in .step::after{transform:scaleX(1)}
+@media(max-width:900px){.steps{grid-template-columns:1fr 1fr}.step::after{display:none}}
+@media(max-width:560px){.steps{grid-template-columns:1fr}.step{transform:none!important;min-height:0;gap:30px}}
+
+.filters{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin:30px 0 40px}
+.filters button{font:inherit;font-size:.85rem;font-weight:600;background:transparent;border:1px solid var(--line);border-radius:99px;padding:9px 18px;cursor:pointer;transition:.2s}
+.filters button:hover{border-color:var(--ink)}
+.filters button[aria-pressed=true]{background:var(--ink);color:#fff;border-color:var(--ink)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:28px 24px;align-items:start}
+.card{display:block;width:100%;text-align:left;color:inherit;font:inherit;background:transparent;border:0;cursor:pointer}
+.card:nth-child(even){margin-top:56px}
+.tw{position:relative}
+.thumb{border-radius:var(--r);background:#E9E9E2;border:1px solid var(--line);overflow:hidden;position:relative;aspect-ratio:4/3;color:var(--mute);font-size:.85rem;text-align:center}
+.thumb {
+  aspect-ratio: 4/3;
+}
+.thumb img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform .6s;
+}
+.thumb video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.thumb .ph{background:repeating-linear-gradient(135deg,transparent 0 14px,rgba(0,0,0,.035) 14px 28px);position:absolute;inset:0;display:grid;place-items:center;padding:20px;transition:transform .6s}
+.card:hover .thumb img,.card:hover .thumb .ph{transform:scale(1.04)}
+.open{position:absolute;right:16px;top:16px;width:44px;height:44px;border-radius:50%;background:var(--lime);display:grid;place-items:center;opacity:0;transform:scale(.7);transition:.3s;z-index:2}
+.card:hover .open,.card:focus-visible .open{opacity:1;transform:none}
+.cmeta{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;margin-top:14px}
+.cmeta h3,.card-title{display:block;font-size:1.08rem;font-weight:600;letter-spacing:-.01em}
+.cmeta p,.card-description{display:block;font-size:.85rem;color:var(--mute);margin-top:2px}
+.tags{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}
+.tags span{font-size:.72rem;border:1px solid var(--line);background:rgba(255,255,255,.6);border-radius:99px;padding:4px 11px;font-weight:600;color:#555}
+@media(max-width:720px){.grid{grid-template-columns:1fr}.card:nth-child(even){margin-top:0}}
+
+dialog{border:0;border-radius:var(--r);width:min(920px,calc(100% - 24px));max-height:92vh;padding:0;background:var(--bg);color:var(--ink);margin:auto;overflow:auto}
+dialog::backdrop{background:rgba(10,10,10,.6);backdrop-filter:blur(4px)}
+dialog[open]{animation:pop .35s cubic-bezier(.2,.7,.2,1)}
+@keyframes pop{from{opacity:0;transform:translateY(24px) scale(.98)}}
+.cs{padding:clamp(22px,4vw,48px)}
+.cs .x{float:right;width:44px;height:44px;border-radius:50%;border:1px solid var(--line);background:#fff;cursor:pointer;font-size:1.1rem}
+.cs h3{font-size:clamp(1.8rem,4vw,2.8rem);letter-spacing:-.03em;line-height:1.05;margin:6px 0 20px}
+.cs .thumb{aspect-ratio:16/9;margin-bottom:26px}
+/* Poster gallery: keeps the existing case-study modal and card styling */
+.cs .media-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:0 0 26px}
+.cs .media-gallery img{width:100%;height:auto;max-height:620px;object-fit:contain;background:#e9e9e2;border:1px solid var(--line);border-radius:16px}
+.cs .motion-gallery{display:grid;grid-template-columns:1fr;gap:18px;margin:0 0 26px}
+.cs .motion-item{background:#101010;border-radius:16px;overflow:hidden}
+.cs .motion-item video{width:100%;max-height:520px;aspect-ratio:16/9;object-fit:contain}
+.cs .motion-item p{padding:10px 14px;color:#fff;font-size:.85rem}
+@media(max-width:560px){.cs .media-gallery{grid-template-columns:1fr}}
+.cs dl{display:grid;grid-template-columns:170px 1fr;border-top:1px solid var(--line)}
+.cs dt,.cs dd{padding:14px 0;border-bottom:1px solid var(--line);font-size:.95rem}
+.cs dt{font-weight:700}.cs dd{color:#444}
+@media(max-width:560px){.cs dl{grid-template-columns:1fr}.cs dt{border:0;padding-bottom:0}}
+
+.about{display:grid;grid-template-columns:1fr 1.1fr;gap:clamp(24px,5vw,70px);margin-top:50px;align-items:start}
+.pcard{background:var(--dark);border-radius:var(--r);aspect-ratio:4/4.6;position:relative;overflow:hidden;display:flex;align-items:flex-end;justify-content:center}
+.pcard img{position:relative;height:100%;width:auto;object-fit:contain;object-position:bottom}
+.pcard::before{content:"";position:absolute;width:70%;aspect-ratio:1;border-radius:50%;background:var(--lime);filter:blur(50px);opacity:.45;bottom:-10%;left:15%}
+.who{display:flex;justify-content:space-between;align-items:center;margin-top:14px;font-size:.9rem}
+.who span{color:var(--mute);display:block;font-size:.82rem}
+.soc{display:flex;gap:8px}.soc a{width:38px;height:38px;border:1px solid var(--line);border-radius:50%;display:grid;place-items:center;font-size:.72rem;font-weight:700;background:#fff}
+.soc a:hover{background:var(--lime)}
+.about p{font-size:1.05rem;color:#333;margin-bottom:16px;max-width:60ch}
+.xp{margin-top:30px;border-top:1px solid var(--ink)}
+.xp div{display:grid;grid-template-columns:1.2fr 1.2fr auto;gap:12px;padding:15px 0;border-bottom:1px solid var(--line);font-size:.9rem}
+.xp div span:nth-child(2){color:var(--mute)}.xp div span:last-child{text-align:right}
+.facts{display:flex;flex-wrap:wrap;gap:8px;margin-top:24px}
+@media(max-width:820px){.about{grid-template-columns:1fr}}
+
+.cta{background:linear-gradient(0deg,var(--lime) 0%,#DDFB94 45%,var(--bg) 100%);text-align:center}
+.cta h2{font-size:clamp(2.3rem,6.5vw,4.8rem)}
+.cta h2 .serif{font-size:1.1em}
+.cta p{max-width:520px;margin:18px auto 30px;color:#333}
+.cta .row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+footer{padding:30px 0 0;overflow:hidden}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;font-size:.88rem;font-weight:600}
+footer .nv{display:flex;gap:24px;flex-wrap:wrap}footer small{color:var(--mute);font-weight:500}
+.giant{font-family:var(--serif);font-style:italic;font-size:clamp(3rem,13.4vw,14rem);line-height:.85;white-space:nowrap;text-align:center;margin-top:40px;padding-bottom:.05em;letter-spacing:-.02em;transform:translateY(12%)}
+
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}.statement .w.dim{color:var(--ink)}.step::after{transform:scaleX(1)}}
+
+/* Review fixes: accessibility and resilience */
+.burger[aria-expanded="true"]{background:var(--lime);color:var(--ink)}
+.links:not(.open) a{ /* Closed mobile links are removed from keyboard navigation by inert in JS. */ }
+button:focus-visible,a:focus-visible{outline:3px solid var(--ink);outline-offset:4px}
+@media(max-width:820px){.links{padding:24px}.links a{max-width:90vw;text-align:center}}
+.thumb img{object-fit:cover}
+video{background:#101010}
+.status-note{margin-top:12px;font-size:.9rem;color:inherit}
+
+.card:focus-visible{outline:3px solid var(--ink);outline-offset:5px;border-radius:var(--r)}
+</style>
+</head>
+<body>
+
+<nav id="nav">
+ <div class="wrap">
+  <a class="brand" href="#top" aria-label="Tamilselvan, back to top"><b>Tamilselvan</b><small>Creative Designer &amp; Visual Storyteller</small></a>
+  <div class="links" id="links" inert>
+   <a href="#work">Work</a><a href="#about">About</a><a href="#showreel">Showreel</a><a href="#contact">Contact</a>
+   <a class="pill" href="#contact">Let's connect</a>
+  </div>
+  <button class="burger" id="burger" aria-label="Open menu" aria-controls="links" aria-expanded="false">☰</button>
+ </div>
+</nav>
+
+<header class="hero" id="top">
+ <div class="wrap">
+  <span class="badge">Designing Ideas Into Visual Stories</span>
+  <h1>Hi, I'm Tamilselvan <span class="serif">Visual Storyteller</span></h1>
+  <div class="stage">
+   <div class="side l">
+    <span class="open-pill">Open to opportunities</span>
+    <span class="meta">Senior Graphic Designer / Motion Designer / Video Editor / AI Creative</span>
+   </div>
+   <img src="images/tamilselvan.webp" alt="Portrait of Tamilselvan Velavan, smiling with arms crossed" width="700" height="900">
+   <div class="side r">
+    <p>A multidisciplinary creative turning ideas into clear visual communication through graphic design, motion, video and AI-powered creativity.</p>
+    <div style="display:flex;gap:10px;flex-wrap:wrap"><a class="pill" href="#work">Explore my work</a><a class="pill ghost" href="#showreel">Watch showreel</a></div>
+   </div>
+  </div>
+  <p class="cue">8 years of creative experience &nbsp;·&nbsp; Scroll ↓</p>
+ </div>
+</header>
+
+<div class="marq" aria-label="Tools I use"><div class="track" id="track"></div></div>
+
+<section id="showreel">
+ <div class="wrap">
+  <p class="label">Creative Reel</p>
+  <h2>A showcase of design, motion & visual storytelling.</h2>
+  <div class="frame">
+   <div class="player" id="player">
+    <div class="poster" id="poster">
+     <button class="play" id="play" aria-label="Play showreel"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6 3l15 9-15 9z"/></svg></button>
+     <p id="reelnote"></p>
+    </div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section style="padding-top:20px">
+ <div class="wrap">
+  <p class="label">Hello!</p>
+  <p class="statement" id="statement">My focus is on blending clear strategy, thoughtful design and visual storytelling to craft experiences that connect with people.</p>
+  <div class="chips"><span class="chip"><i></i>Brand &amp; Graphic Design</span><span class="chip"><i></i>Motion Graphics</span><span class="chip"><i></i>Video Editing</span><span class="chip"><i></i>AI-Assisted Creative</span><span class="chip"><i></i>Typography</span><span class="chip"><i></i>Marketing Creatives</span></div>
+ </div>
+</section>
+
+<section id="process">
+ <div class="wrap">
+  <p class="label">My process</p>
+  <h2>From first idea to final frame.</h2>
+  <div class="steps" id="steps">
+   <div class="step"><b class="n">01</b><div><h3>Discover</h3><p>Understand the brief, audience, objectives and communication requirements.</p></div></div>
+   <div class="step"><b class="n">02</b><div><h3>Concept</h3><p>Explore visual directions, references, composition, typography and creative possibilities.</p></div></div>
+   <div class="step"><b class="n">03</b><div><h3>Create</h3><p>Build the design, animation, edit or AI-assisted visual with the right tools and workflow.</p></div></div>
+   <div class="step"><b class="n">04</b><div><h3>Deliver</h3><p>Refine details, maintain quality, prepare final formats and ship production-ready assets.</p></div></div>
+  </div>
+ </div>
+</section>
+
+<section id="work" style="padding-top:20px">
+ <div class="wrap">
+  <p class="label">Best projects</p>
+  <h2>Selected work that speaks.</h2>
+  <p style="text-align:center;color:var(--mute);max-width:560px;margin:14px auto 0">A curated selection of visual identities, marketing campaigns, motion graphics, video productions and AI-driven creative work.</p>
+  <div class="filters" id="filters" role="group" aria-label="Filter projects"></div>
+  <div class="grid" id="grid"></div>
+ </div>
+</section>
+
+<dialog id="dlg" aria-labelledby="dlgTitle"><div class="cs" id="cs"></div></dialog>
+
+<section id="about" style="padding-top:20px">
+ <div class="wrap">
+  <p class="label">Who am I</p>
+  <h2>Creative by instinct. Precise by design.</h2>
+  <div class="about">
+   <div>
+    <div class="pcard"><img src="images/tamilselvan.webp" alt="Portrait of Tamilselvan Velavan" loading="lazy"></div>
+    <div class="who"><div><b>Tamilselvan Velavan</b><span>Senior Graphic Designer</span></div>
+     <div class="soc"><a data-link="linkedin" href="#contact" aria-label="LinkedIn">in</a><a data-link="behance" href="#contact" aria-label="Behance">Be</a><a data-link="email" href="#contact" aria-label="Email">@</a></div></div>
+   </div>
+   <div>
+    <p>I'm Tamilselvan Velavan, a multidisciplinary creative professional with 8 years of experience in visual communication, graphic design, motion graphics and video production.</p>
+    <p>My work brings together design fundamentals, visual storytelling, typography, motion and emerging AI technologies. I enjoy turning complex ideas into clear, engaging and visually compelling experiences.</p>
+    <p>Having worked across agency and corporate creative environments, I balance creative quality, brand consistency, production requirements and delivery timelines.</p>
+    <div class="xp" id="xp"></div>
+    <div class="facts"><span class="chip">Graphic Design &amp; Visual Communication</span><span class="chip">Motion Graphics &amp; Video Editing</span><span class="chip">AI-Assisted Creative Production</span><span class="chip">Marketing &amp; Corporate Communications</span></div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section class="cta" id="contact">
+ <div class="wrap">
+  <h2>Have an idea? <span class="serif">Let's make it visual.</span></h2>
+  <p>Looking for a creative partner who can bring design, motion, video and AI-assisted creativity together? Let's connect and create something meaningful.</p>
+  <div class="row">
+   <a class="pill" data-link="email" href="#contact">Let's connect</a>
+   <a class="pill ghost" data-link="linkedin" href="#contact" rel="noopener">View LinkedIn</a>
+   <a class="pill ghost" data-link="resume" href="#contact" download>Download resume</a>
+  </div>
+ </div>
+</section>
+
+<footer>
+ <div class="wrap">
+  <div class="nv"><a href="#top">Home</a><a href="#about">About</a><a href="#work">Work</a><a href="#showreel">Showreel</a><a href="#contact">Contact</a></div>
+  <small>© 2026 Tamilselvan Velavan. All rights reserved.</small>
+ </div>
+ <div class="giant" aria-hidden="true">Tamilselvan Velavan</div>
+</footer>
+
+<script>
+/* ============ PORTFOLIO CONFIG ============ */
+const CONFIG = {
+  links: {
+    email: "mailto:tamilselvanvelavan07@gmail.com",
+    linkedin: "https://www.linkedin.com/in/tamil-selvan-0707shti/",
+    behance: "https://www.behance.net/tamilselvan07",
+    resume: "./resume.pdf"
+  },
+  showreel:{
+  src: "./videos/portfolio-showreel.mp4",
+  poster: "./images/showreel-thumbnail.jpg"
+},
+  tools: ["Photoshop","Illustrator","InDesign","Adobe Express","After Effects","Premiere Pro","Adobe Firefly","Midjourney","Runway","Krea","Leonardo AI","Canva AI"],
+  experience: [
+    { role: "Senior Executive – Graphic Designer & Video Editor", company: "Hexaware Technologies", years: "OCT 2024 → Present" },
+    { role: "Graphic Designer / Motion Graphics Designer", company: "Mobius Knowledge Services", years: "JUL 2020 → OCT 2024" },
+    { role: "2D Animator & Graphic Designer", company: "MF Media Pvt. Ltd.", years: "AUG 2018 → MAY 2020" }
+  ],
+  categories: ["Brand & Graphic Design","Poster Design","Motion Graphics","Video Production","AI-Powered Creative"],
+  projects: [
+    {title:"Morphwise — Branding",category:"Brand & Graphic Design",tags:["Motion Design","Brand"],year:"2026",line:"The Morphwise brand identity to life through motion, shape and color",img:"./images/morphwise-thumbnail.jpg",video:"./videos/morphwise.mp4",tools:"Photoshop, Illustrator, After Effects, Premier Pro",role:"Creative design, layout and production.",challenge:"Communicate campaign messages clearly while maintaining brand consistency.",strategy:"Use a clear visual hierarchy, considered typography and adaptable layouts.",deliverables:"Campaign creatives and digital marketing assets."},
+    {
+  title: "SwiftMove — Logistics Explainer Video",
+  category: "Motion Graphics",
+  tags: ["Motion Design", "2D Animation", "Explainer Video"],
+  year: "2026",
+  line: "Bringing the delivery journey to life through 2D animation.",
+  img: "./images/swiftmove-thumbnail.jpg",
+  video: "./videos/Swiftmove.mp4",
+  tools: ["Adobe After Effects", "Adobe Illustrator"],
+  role: "Motion Graphics Designer & Video Editor",
+  challenge: "Explain the logistics and transportation journey in a clear and engaging way.",
+  strategy: "Use cohesive illustrations, animated typography, and smooth transitions to tell the story from order placement to doorstep delivery.",
+  deliverables: ["2D Animation", "Motion Graphics", "Explainer Video"],
+  outcome: "Delivered a visually engaging animated explainer that communicates SwiftMove’s logistics journey through clear storytelling and cohesive 2D motion design."
+},
+
+{
+  title: "Pizza Chief - Campaign Creatives",
+  category: "Poster Design",
+  description: "Creative visuals designed to capture attention and communicate ideas.",
+  tags: ["Poster Design", "Graphic Design"],
+  img: "./images/poster-mockup.jpg",
+  images: [
+    "./images/poster-01.jpg",
+    "./images/poster-02.jpg",
+    "./images/poster-03.jpg",
+    "./images/poster-04.jpg",
+    "./images/poster-05.jpg",
+    "./images/poster-06.jpg",
+    "./images/poster-07.jpg",
+    "./images/poster-08.jpg",
+  ],
+  videos:  [
+  {
+    title: "Instagram Campaign Ad",
+    src: "./videos/poster-motion-01.mp4"
+  },
+  {
+    title: "Social Media Ad Motion",
+    src: "./videos/poster-motion-02.mp4"
+  },
+  {
+    title: "Instagram Reel Ad",
+    src: "./videos/poster-motion-03.mp4"
+  }
+]
+},
+    
+{
+  title: "Lightning Courier",
+  category: "Brand & Graphic Design",
+  tags: ["Brand Design", "Motion Graphics", "Explainer Video"],
+  year: "2026",
+  line: "Bringing the express delivery journey to life through engaging 2D animation.",
+  img: "./images/lightning-courier-thumbnail.jpg",
+  video: "./videos/Lightning Courier V0-1.m4v",
+  tools: ["Adobe After Effects", "Adobe Illustrator"],
+  role: "Motion Graphics Designer & Video Editor",
+  challenge: "Communicate the courier delivery process in a clear and engaging way.",
+  strategy: "Use cohesive illustrations, animated elements, and smooth transitions to present the delivery journey.",
+  deliverables: ["2D Animation", "Motion Graphics", "Explainer Video"],
+  outcome: "Created an animated explainer presenting the courier service through clear visual storytelling."
+},
+    {
+  title: "Apexcreed",
+  category: "AI-Powered Creative",
+  tags: ["AI Creative", "Motion Graphics", "Video Production"],
+  year: "2026",
+  line: "Bringing creative concepts to life through impactful visual storytelling.",
+  img: "./images/apexcreed-thumbnail.jpg",
+  video: "./videos/Apexcreed.mp4",
+  tools: ["Adobe After Effects", "AI Creative Tools"],
+  role: "Motion Graphics Designer & Video Editor",
+  challenge: "Transform a creative concept into an engaging and visually compelling video.",
+  strategy: "Combine visual storytelling, dynamic composition, and motion design to create an engaging viewing experience.",
+  deliverables: ["Creative Video", "Motion Graphics", "Video Production"],
+  outcome: "Developed a visually engaging creative video with a strong focus on storytelling and presentation."
+}
+  ]
+};
+/* ========================================== */
+
+const $ = (selector, root = document) => root.querySelector(selector);
+const esc = value => String(value ?? "").replace(/[&<>"']/g, char => ({
+  "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
+}[char]));
+const reduceMotion = window.matchMedia?.("(prefers-reduced-motion: reduce)").matches ?? false;
+const safeMediaURL = value => {
+  if (typeof value !== "string" || !value.trim()) return "";
+  const url = value.trim();
+  if (/^(https:|\/|\.\/|\.\.\/)/i.test(url) && !/^javascript:/i.test(url)) return url;
+  return "";
+};
+const safeExternalURL = value => {
+  try {
+    const url = new URL(value);
+    return ["https:", "mailto:"].includes(url.protocol) ? url.href : "";
+  } catch { return ""; }
+};
+
+document.querySelectorAll("[data-link]").forEach(anchor => {
+  const key = anchor.dataset.link;
+  const raw = CONFIG.links[key];
+  let href = "";
+  if (key === "email" && typeof raw === "string" && raw.startsWith("mailto:") && !raw.includes("EMAIL_HERE")) href = raw;
+  else if (key === "resume" && typeof raw === "string" && raw.trim()) href = raw;
+  else if (raw && !/_HERE/.test(raw)) href = safeExternalURL(raw);
+
+  if (href) {
+    anchor.href = href;
+    if (/^https:/i.test(href)) {
+      anchor.target = "_blank";
+      anchor.rel = "noopener noreferrer";
+    }
+  } else {
+    anchor.title = "Add this link in CONFIG";
+    anchor.setAttribute("aria-disabled", "true");
+    anchor.addEventListener("click", event => event.preventDefault());
+  }
+});
+
+const nav = $("#nav"), links = $("#links"), burger = $("#burger");
+const mobileMenuQuery = window.matchMedia("(max-width: 820px)");
+const syncMenuMode = () => {
+  if (!mobileMenuQuery.matches) {
+    links.inert = false;
+    links.classList.remove("open");
+    burger.setAttribute("aria-expanded", "false");
+    burger.textContent = "☰";
+    burger.setAttribute("aria-label", "Open menu");
+  } else if (!links.classList.contains("open")) {
+    links.inert = true;
+  }
+};
+mobileMenuQuery.addEventListener?.("change", syncMenuMode);
+syncMenuMode();
+const closeMenu = () => {
+  links.classList.remove("open");
+  links.inert = true;
+  burger.textContent = "☰";
+  burger.setAttribute("aria-label", "Open menu");
+  burger.setAttribute("aria-expanded", "false");
+};
+burger.addEventListener("click", () => {
+  const isOpen = links.classList.toggle("open");
+  links.inert = !isOpen;
+  burger.textContent = isOpen ? "✕" : "☰";
+  burger.setAttribute("aria-label", isOpen ? "Close menu" : "Open menu");
+  burger.setAttribute("aria-expanded", String(isOpen));
+});
+links.addEventListener("click", event => {
+  if (event.target.closest("a")) closeMenu();
+});
+document.addEventListener("keydown", event => {
+  if (event.key === "Escape" && links.classList.contains("open")) {
+    closeMenu();
+    burger.focus();
+  }
+});
+const updateNav = () => nav.classList.toggle("scrolled", window.scrollY > 30);
+window.addEventListener("scroll", updateNav, { passive: true });
+updateNav();
+
+$("#track").innerHTML = [...CONFIG.tools, ...CONFIG.tools].map(tool => `<span>${esc(tool)}</span>`).join("");
+$("#xp").innerHTML = CONFIG.experience.map(item =>
+  `<div><span>${esc(item.role)}</span><span>${esc(item.company)}</span><span>${esc(item.years)}</span></div>`
+).join("");
+
+const player = $("#player");
+const playButton = $("#play");
+playButton.addEventListener("click", async () => {
+  const { src, poster } = CONFIG.showreel;
+  const safeSrc = safeMediaURL(src);
+  if (!safeSrc) {
+    $("#reelnote").textContent = "Showreel coming soon. Add your video path in CONFIG.showreel.src.";
+    return;
+  }
+  let video = $("video", player);
+  if (!video) {
+    video = document.createElement("video");
+    video.controls = true;
+    video.playsInline = true;
+    video.preload = "metadata";
+    video.src = safeSrc;
+    const safePoster = safeMediaURL(poster);
+    if (safePoster) video.poster = safePoster;
+    video.setAttribute("aria-label", "Tamilselvan's design and motion showreel");
+    $("#poster")?.remove();
+    player.appendChild(video);
+    video.addEventListener("error", () => {
+      $("#reelnote").textContent = "The showreel could not be loaded. Please check the video path and format.";
+    }, { once: true });
+  }
+  try {
+    await video.play();
+    $("#reelnote").textContent = "";
+  } catch {
+    $("#reelnote").textContent = "Playback could not start. Use the video controls to try again.";
+  }
+});
+if (CONFIG.showreel.poster) {
+  const posterURL = safeMediaURL(CONFIG.showreel.poster);
+  if (posterURL) $("#poster").style.background = `center/cover no-repeat url("${posterURL.replace(/["\\]/g, "")}")`;
+}
+
+let activeCategory = "All";
+const normalizeProject = project => ({
+  title: String(project?.title ?? "Untitled project"),
+  category: String(project?.category ?? "Other"),
+  year: String(project?.year ?? ""),
+  tags: Array.isArray(project?.tags) ? project.tags : [],
+  img: safeMediaURL(project?.img),
+  video: safeMediaURL(project?.video),
+  images: Array.isArray(project?.images) ? project.images.map(safeMediaURL).filter(Boolean) : [],
+  videos: Array.isArray(project?.videos) ? project.videos.map(item => ({
+    title: String(item?.title ?? "Motion video"),
+    src: safeMediaURL(item?.src)
+  })).filter(item => item.src) : [],
+  line: String(project?.line ?? ""),
+  challenge: String(project?.challenge ?? ""),
+  role: String(project?.role ?? ""),
+  strategy: String(project?.strategy ?? ""),
+  tools: String(project?.tools ?? ""),
+  deliverables: String(project?.deliverables ?? ""),
+  outcome: String(project?.outcome ?? "")
+});
+const projects = Array.isArray(CONFIG.projects) ? CONFIG.projects.map(normalizeProject) : [];
+const categories = Array.isArray(CONFIG.categories) ? CONFIG.categories : [];
+
+const thumb = project => `
+ <div class="thumb">
+    ${project.video
+      ? `<video
+          src="${esc(project.video)}"
+          autoplay
+          muted
+          loop
+          playsinline
+          preload="auto"
+          aria-label="${esc(project.title)} preview">
+        </video>`
+      : project.img
+        ? `<img
+            src="${esc(project.img)}"
+            alt="${esc(project.title)} preview"
+            loading="lazy">`
+        : `<div class="ph">ADD PROJECT IMAGE<br>${esc(project.title)}</div>`
+    }
+  </div>
+`;
+
+function renderFilters() {
+  $("#filters").innerHTML = ["All", ...categories].map(category =>
+    `<button type="button" aria-pressed="${category === activeCategory}" data-category="${esc(category)}">${esc(category)}</button>`
+  ).join("");
+}
+$("#filters").addEventListener("click", event => {
+  const button = event.target.closest("button[data-category]");
+  if (!button) return;
+  activeCategory = button.dataset.category;
+  renderFilters();
+  renderGrid();
+});
+
+function renderGrid() {
+  const visible = projects.map((project, index) => ({ project, index }))
+    .filter(item => activeCategory === "All" || item.project.category === activeCategory);
+  $("#grid").innerHTML = visible.map(({ project, index }) =>
+    `<button class="card" type="button" data-index="${index}" aria-label="Open case study: ${esc(project.title)}">
+      <span class="tw">${thumb(project)}<span class="open" aria-hidden="true">↗</span></span>
+      <span class="cmeta"><span><span class="card-title">${esc(project.title)}</span><span class="card-description">${esc(project.category)} · ${esc(project.year)}</span></span>
+      <span class="tags">${project.tags.map(tag => `<span>${esc(tag)}</span>`).join("")}</span></span>
+    </button>`
+  ).join("") || '<p style="grid-column:1/-1;text-align:center;color:var(--mute)">No projects in this category yet.</p>';
+}
+$("#grid").addEventListener("click", event => {
+  const card = event.target.closest("button[data-index]");
+  if (card) openCaseStudy(Number(card.dataset.index), card);
+});
+
+const dialog = $("#dlg");
+let lastTrigger = null;
+function openCaseStudy(index, trigger) {
+  const project = projects[index];
+  if (!project || !dialog?.showModal) return;
+  lastTrigger = trigger;
+  const posterImages = project.images.length
+    ? project.images
+    : (project.img && !project.video ? [project.img] : []);
+  const gallery = posterImages.length
+    ? `<div class="media-gallery" aria-label="${esc(project.title)} poster gallery">${posterImages.map((src, i) =>
+        `<img src="${esc(src)}" alt="${esc(project.title)} poster ${i + 1}" loading="lazy">`
+      ).join("")}</div>`
+    : "";
+  const motionItems = project.videos.length
+    ? project.videos
+    : (project.video ? [{ title: project.title, src: project.video }] : []);
+  const motionGallery = motionItems.length
+    ? `<div class="motion-gallery" aria-label="${esc(project.title)} motion videos">${motionItems.map((item, i) =>
+        `<div class="motion-item"><video src="${esc(item.src)}" controls preload="metadata" playsinline aria-label="${esc(item.title)}"></video><p>${esc(item.title || `Motion video ${i + 1}`)}</p></div>`
+      ).join("")}</div>`
+    : "";
+  const media = (project.images.length || project.videos.length)
+    ? `${gallery}${motionGallery}`
+    : project.video
+      ? `<div class="thumb"><video src="${esc(project.video)}" poster="${esc(project.img)}" controls preload="metadata" playsinline></video></div>`
+      : project.img ? thumb(project) : "";
+  const rows = [
+    ["Overview", project.line], ["Challenge", project.challenge], ["My role", project.role],
+    ["Strategy & direction", project.strategy], ["Tools", project.tools], ["Deliverables", project.deliverables]
+  ].filter(row => row[1]);
+  if (project.outcome) rows.push(["Outcome", project.outcome]);
+  $("#cs").innerHTML = `<button class="x" type="button" aria-label="Close case study">✕</button>
+    <p class="label" style="text-align:left">${esc(project.category)} · ${esc(project.year)}</p>
+    <h3 id="dlgTitle">${esc(project.title)}</h3>${media}
+    <dl>${rows.map(row => `<dt>${esc(row[0])}</dt><dd>${esc(row[1])}</dd>`).join("")}</dl>`;
+  $(".x", $("#cs")).addEventListener("click", () => dialog.close());
+  dialog.showModal();
+  $(".x", $("#cs")).focus();
+}
+dialog.addEventListener("close", () => {
+  const videos = dialog.querySelectorAll("video");
+
+  videos.forEach(video => {
+    video.pause();
+    video.currentTime = 0;
+    video.removeAttribute("src");
+    video.load();
+  });
+
+  if (lastTrigger) lastTrigger.focus();
+});
+dialog.addEventListener("click", event => {
+  if (event.target === dialog) dialog.close();
+});
+
+renderFilters();
+renderGrid();
+
+const statement = $("#statement");
+if (statement) {
+  const words = statement.textContent.trim().split(/\s+/);
+  statement.innerHTML = words.map(word => `<span class="w">${esc(word)}</span>`).join(" ");
+  const wordSpans = [...statement.children];
+  let ticking = false;
+  const paintStatement = () => {
+    const rect = statement.getBoundingClientRect();
+    const viewportHeight = window.innerHeight;
+    const progress = Math.min(1, Math.max(0, (viewportHeight * .85 - rect.top) / (viewportHeight * .5)));
+    const activeCount = Math.round(progress * wordSpans.length) + 1;
+    wordSpans.forEach((word, index) => word.classList.toggle("dim", index >= activeCount));
+    ticking = false;
+  };
+  if (!reduceMotion) {
+    window.addEventListener("scroll", () => {
+      if (!ticking) {
+        ticking = true;
+        window.requestAnimationFrame(paintStatement);
+      }
+    }, { passive: true });
+    paintStatement();
+  }
+}
+const steps = $("#steps");
+if ("IntersectionObserver" in window && steps) {
+  new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("in");
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: .3 }).observe(steps);
+} else {
+  steps?.classList.add("in");
+}
+</script>
+<script>
+  window.addEventListener("load", function () {
+    if (window.location.hash) {
+      history.replaceState(
+        null,
+        "",
+        window.location.pathname + window.location.search
+      );
+    }
+
+    window.scrollTo(0, 0);
+  });
+</script>
+</body>
+</html>
