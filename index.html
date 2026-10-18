@@ -198,6 +198,33 @@ video{background:#101010}
 .status-note{margin-top:12px;font-size:.9rem;color:inherit}
 
 .card:focus-visible{outline:3px solid var(--ink);outline-offset:5px;border-radius:var(--r)}
+
+@media (max-width: 768px) {
+  nav .wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+  nav .brand {
+    flex: 1;
+    min-width: 0;
+  }
+
+  nav .burger {
+    flex-shrink: 0;
+    position: relative;
+    z-index: 60;
+    width: 48px;
+    height: 48px;
+    margin-left: auto;
+  }
+
+  nav .links {
+    display: none;
+  }
+}
 </style>
 </head>
 <body>
@@ -342,9 +369,14 @@ const CONFIG = {
     { role: "Graphic Designer / Motion Graphics Designer", company: "Mobius Knowledge Services", years: "JUL 2020 → OCT 2024" },
     { role: "2D Animator & Graphic Designer", company: "MF Media Pvt. Ltd.", years: "AUG 2018 → MAY 2020" }
   ],
-  categories: ["Brand & Graphic Design","Poster Design","Motion Graphics","Video Production","AI-Powered Creative"],
+ categories: [
+  "Brand & Graphic Design",
+  "Motion Graphics",
+  "Video Production",
+  "AI-Powered Creative"
+],
   projects: [
-    {title:"Morphwise — Branding",category:"Brand & Graphic Design",tags:["Motion Design","Brand"],year:"2026",line:"The Morphwise brand identity to life through motion, shape and color",img:"./images/morphwise-thumbnail.jpg",video:"./videos/morphwise.mp4",tools:"Photoshop, Illustrator, After Effects, Premier Pro",role:"Creative design, layout and production.",challenge:"Communicate campaign messages clearly while maintaining brand consistency.",strategy:"Use a clear visual hierarchy, considered typography and adaptable layouts.",deliverables:"Campaign creatives and digital marketing assets."},
+    {title:"Morphwise — Branding",category:"Motion Graphics",tags:["Motion Design","Brand"],year:"2026",line:"The Morphwise brand identity to life through motion, shape and color",img:"./images/morphwise-thumbnail.jpg",video:"./videos/morphwise.mp4",tools:"Photoshop, Illustrator, After Effects, Premier Pro",role:"Creative design, layout and production.",challenge:"Communicate campaign messages clearly while maintaining brand consistency.",strategy:"Use a clear visual hierarchy, considered typography and adaptable layouts.",deliverables:"Campaign creatives and digital marketing assets."},
     {
   title: "SwiftMove — Logistics Explainer Video",
   category: "Motion Graphics",
@@ -363,7 +395,7 @@ const CONFIG = {
 
 {
   title: "Pizza Chief - Campaign Creatives",
-  category: "Poster Design",
+  category: "AI-Powered Creative",
   description: "Creative visuals designed to capture attention and communicate ideas.",
   tags: ["Poster Design", "Graphic Design"],
   img: "./images/poster-mockup.jpg",
@@ -422,6 +454,163 @@ const CONFIG = {
   strategy: "Combine visual storytelling, dynamic composition, and motion design to create an engaging viewing experience.",
   deliverables: ["Creative Video", "Motion Graphics", "Video Production"],
   outcome: "Developed a visually engaging creative video with a strong focus on storytelling and presentation."
+},
+
+{
+  title: "EvoCode",
+  category: "Motion Graphics & Video",
+  tags: ["Motion Graphics", "Video Editing", "Visual Storytelling"],
+  year: "2026",
+  line: "Bringing ideas to life through engaging video storytelling.",
+  img: "./images/evocode-thumbnail.jpg",
+  video: "./videos/EvoCode_Compressed.mp4",
+  tools: ["Adobe After Effects", "Adobe Premiere Pro"],
+  role: "Motion Graphics Designer & Video Editor",
+  challenge: "Present the concept through an engaging and visually compelling video.",
+  strategy: "Combine visual storytelling, thoughtful composition, and motion design to create an engaging viewing experience.",
+  deliverables: ["Video Production", "Motion Graphics", "Video Editing"],
+  outcome: "Created a video presentation focused on visual communication and storytelling."
+},
+
+{
+  title: "Ecovista",
+  category: "Video Production",
+  tags: ["Video Editing", "Motion Graphics", "Brand Storytelling"],
+  year: "2026",
+  line: "Bringing the Ecovista vision to life through engaging visual storytelling.",
+  img: "./images/ecovista-thumbnail.jpg",
+  video: "./videos/Ecovista.mp4",
+  tools: ["Adobe Premiere Pro", "Adobe After Effects"],
+  role: "Video Editor & Motion Graphics Designer",
+  challenge: "Communicate the brand's message through a compelling and visually engaging video.",
+  strategy: "Use thoughtful editing, visual composition, and motion graphics to create a cohesive viewing experience.",
+  deliverables: ["Promotional Video", "Video Editing", "Motion Graphics"],
+  outcome: "Developed a brand-focused video presentation designed to communicate the concept through visual storytelling."
+},
+
+{
+  title: "Serenshine",
+  category: "Video Production",
+  tags: ["Motion Graphics", "Video Editing", "Visual Storytelling"],
+  year: "2026",
+  line: "Bringing the Serenshine concept to life through engaging visual storytelling.",
+  img: "./images/serenshine-thumbnail.jpg",
+  video: "./videos/Serenshine.mp4",
+  tools: ["Adobe After Effects", "Adobe Premiere Pro"],
+  role: "Motion Graphics Designer & Video Editor",
+  challenge: "Translate the creative concept into a visually engaging video experience.",
+  strategy: "Combine dynamic editing, visual composition, and motion graphics to create a cohesive video presentation.",
+  deliverables: ["Video Production", "Motion Graphics", "Video Editing"],
+  outcome: "Created a visual storytelling piece focused on engaging presentation and creative execution."
+},
+
+{
+  title: "NexGen",
+  category: "Motion Graphics & Brand Identity",
+  tags: [
+    "Logo Animation",
+    "3D Motion Graphics",
+    "Brand Reveal"
+  ],
+  year: "2026",
+  line: "Bringing the next generation of innovation to life through motion.",
+  img: "./images/nexgen-thumbnail.jpg",
+  video: "./videos/NexGen.mp4",
+  tools: [
+    "Adobe After Effects",
+    "Adobe Illustrator"
+  ],
+  role: "Motion Graphics Designer",
+  challenge: "Create a distinctive brand reveal that communicates a modern, innovative identity.",
+  strategy: "Use dimensional typography, layered circular forms, soft lighting, and smooth animation to reveal the brand.",
+  deliverables: [
+    "Logo Animation",
+    "3D Motion Graphics",
+    "Brand Reveal Video"
+  ],
+  outcome: "Created a clean, dimensional logo reveal with a modern visual style and a focus on brand presentation."
+},
+
+{
+  title: "Nival — Logofolio",
+  category: "Brand & Graphic Design",
+  tags: [
+    "Logo Design",
+    "Brand Identity",
+    "Visual Design"
+  ],
+  year: "2026",
+  line: "A curated collection of distinctive visual identities.",
+  img: "./images/nival-logofolio-cover.jpg",
+
+  images: [
+    "./images/nival-logo-01.jpg",
+    "./images/nival-logo-02.jpg",
+    "./images/nival-logo-03.jpg",
+    "./images/nival-logo-04.jpg",
+    "./images/nival-logo-05.jpg",
+    "./images/nival-logo-06.jpg",
+    "./images/nival-logo-07.jpg",
+    "./images/nival-logo-08.jpg",
+    "./images/nival-logo-09.jpg",
+    "./images/nival-logo-10.jpg",
+    "./images/nival-logo-11.jpg",
+    "./images/nival-logo-12.jpg",
+    "./images/nival-logo-13.jpg",
+    "./images/nival-logo-14.jpg",
+    "./images/nival-logo-15.jpg",
+    "./images/nival-logo-16.jpg"
+  ],
+
+  videos: [
+    {
+      title: "Logo Animation",
+      src: "./videos/nival-logo-animation.mp4"
+    }
+  ],
+
+  tools: [
+    "Adobe Illustrator",
+    "Adobe Photoshop",
+    "Adobe After Effects"
+  ],
+  role: "Brand Identity Designer",
+  challenge: "Create a distinctive collection of logos with a consistent visual presentation.",
+  strategy: "Explore typography, geometric forms, and creative visual concepts to build memorable identities.",
+  deliverables: [
+    "Logo Collection",
+    "Brand Identity",
+    "Logo Animation",
+    "Logofolio Presentation"
+  ],
+  outcome: "Presented a versatile collection of brand identities supported by visual and motion design."
+},
+
+{
+  title: "OnePlus — Brand Video",
+  category: "Video Production",
+  tags: [
+    "Video Editing",
+    "Brand Campaign",
+    "Visual Storytelling"
+  ],
+  year: "2026",
+  line: "Bringing the OnePlus visual experience to life through video.",
+  img: "./images/oneplus-thumbnail.jpg",
+  video: "./videos/Oneplus.mp4",
+  tools: [
+    "Adobe Premiere Pro",
+    "Adobe After Effects"
+  ],
+  role: "Video Editor & Motion Graphics Designer",
+  challenge: "Present the creative concept through an engaging video experience.",
+  strategy: "Combine visual storytelling, thoughtful editing, and motion design to create a cohesive presentation.",
+  deliverables: [
+    "Brand Video",
+    "Video Editing",
+    "Motion Graphics"
+  ],
+  outcome: "A video project showcasing visual communication and creative execution."
 }
   ]
 };
